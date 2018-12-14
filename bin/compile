@@ -66,4 +66,5 @@ done
 cat <<EOF >> $BUILD_DIR/.profile.d/000_locale.sh
 export I18NPATH=/app/.heroku/locales/var/lib/locales/supported.d
 export LOCPATH=/app/.heroku/locales/usr/share/locale-langpack/
+export LC_ALL=C
 EOF
